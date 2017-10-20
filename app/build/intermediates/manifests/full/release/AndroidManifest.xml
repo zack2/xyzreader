@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cg.zack_olivier.xyzreader"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Bacon" >
+        <activity
+            android:name="cg.zack_olivier.xyzreader.ui.activity.ArticleListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Bacon.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cg.zack_olivier.xyzreader.ui.activity.ArticleDetailActivity"
+            android:parentActivityName="cg.zack_olivier.xyzreader.ui.activity.ArticleListActivity"
+            android:theme="@style/Theme.Bacon.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.cg.zack_olivier.xyzreader.items" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activity.ArticleListActivity" />
+        </activity>
+
+        <service
+            android:name="cg.zack_olivier.xyzreader.service.UpdaterService"
+            android:exported="false" />
+
+        <provider
+            android:name="cg.zack_olivier.xyzreader.data.ItemsProvider"
+            android:authorities="cg.zack_olivier.xyzreader"
+            android:exported="false" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="03d12a2e51c9d21dca16b9ffe6988da2bd8e63b6" />
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="cg.zack_olivier.xyzreader.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+
+</manifest>

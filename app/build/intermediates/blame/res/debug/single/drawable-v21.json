@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/white_selectable_item_background_circle.xml",
+        "source": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/src/main/res/drawable-v21/white_selectable_item_background_circle.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/root/.android/build-cache/2d424215f081acb1095fe1fdeb904b5af993f250/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/root/.android/build-cache/97462238922f06f73d1ad4e5dd922587106a383f/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/root/.android/build-cache/97462238922f06f73d1ad4e5dd922587106a383f/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/root/.android/build-cache/2d424215f081acb1095fe1fdeb904b5af993f250/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/root/.android/build-cache/97462238922f06f73d1ad4e5dd922587106a383f/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/root/.android/build-cache/2d424215f081acb1095fe1fdeb904b5af993f250/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/root/.android/build-cache/97462238922f06f73d1ad4e5dd922587106a383f/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/root/.android/build-cache/2d424215f081acb1095fe1fdeb904b5af993f250/output/res/drawable-v21/notification_action_background.xml"
+    }
+]

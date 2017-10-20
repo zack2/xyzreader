@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_share.png",
+        "source": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/src/main/res/drawable-xxhdpi/ic_share.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-xxhdpi/logo.png",
+        "source": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_arrow_back.png",
+        "source": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/src/main/res/drawable-xxhdpi/ic_arrow_back.png"
+    }
+]

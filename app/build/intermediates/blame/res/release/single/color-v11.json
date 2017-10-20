@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/root/.android/build-cache/2d424215f081acb1095fe1fdeb904b5af993f250/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/Github/xyz-reader-starter-code/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/root/.android/build-cache/2d424215f081acb1095fe1fdeb904b5af993f250/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]
